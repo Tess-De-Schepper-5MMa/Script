@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academie Mechelen</title>
+    <meta name="description" content="HTML match app"> 
+    <style>
+        body {
+            background-color: rgb(255, 195, 225);
+        }
+
+        header{
+            background-color: rgba(208, 231, 252, 0.833);
+        }
+
+        p {
+            color: rgb(16, 101, 93);
+        }
+
+        section {
+            background-color: rgba(241, 241, 189, 0.856);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Academie App!</h1> 
+        <nav>
+            <ul>
+                <li><a href="#intro">Introductie</a></li>
+                <li><a href="#lijstjes">Lijstjes</a></li>
+                <li><a href="#invullen">Invullen</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>introductie</h2>
+            <img src="images/10453216_mg-7683.jpg"
+             alt="Foto van tekening" width="250px">
+             <p>Klik hier voor <a href="google.com">meer foto's  van kunst.</a> </p>
+
+        </section>
+        <section id="lijstjes">
+            <h2>Lijstjes</h2>
+            <h3>Dingen die je nodig hebt om te tekenen</h3>  
+            <ul>
+                <li>potlood</li>
+                <li>gom</li>
+                <li>slijper</li>
+            </ul>
+            <h3>Meer opties</h3>
+            <ol>
+                <li>pen</li>
+                <li>stiften</li>
+                <li>kleur potloden</li>
+            </ol>
+        </section>
+        <section id="invullen"> <h2>Invullen</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Met wat werk je het liefst?:</legend>
+                    <input type="radio" name="tools" value="verf">verf
+                    <input type="radio" name="tools" value="inkt">inkt
+                    <input type="radio" name="tools" value="potlood">potlood
+                    <input type="radio" name="tools" value="stift">stift
+                </fieldset>
+                <fieldset>
+                    <legend>Met welke heb je al gewerkt?:</legend>
+                    <input type="checkbox" name="tools" value="verf">verf
+                    <input type="checkbox" name="tools" value="inkt">inkt
+                    <input type="checkbox" name="tools" value="potlood">potlood
+                    <input type="checkbox" name="tools" value="stift">stift
+                </fieldset>
+                <fieldset>
+                    <legend>Comentaar</legend>
+                    <textarea name="Comentaar" id="" cols="30" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Leeftijd</legend>
+                    <input type="number" name="" id="" min="1" max="150">
+                </fieldset>
+                <fieldset>
+                    <legend>Hoe hebt u van ons gehoord?</legend>
+                    <select name="" id="">
+                        <option value="">Via vrienden</option>
+                        <option value="">Via famillie</option>
+                        <option value="">Via sociale media</option>
+                        <option value="">ads</option>
+                    </select>
+                </fieldset>
+
+                <button type="submit">Indienen</button>
+                <button type="reset">Reset</button>
+                
+            </form>
+        </section>
+    </main>
+    <footer>Copyright Tess De Schepper</footer>
+</body>
+</html>
