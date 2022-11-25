@@ -36,7 +36,7 @@ header {
     }
     
 header h1 {
-    padding: 20;px
+    padding: 20px; 
   }
   
 
@@ -79,6 +79,9 @@ nav a:hover {
     font-family: 'Shanti', sans-serif;
   }
 
+  .col {
+    width: 50%;
+  }
   
 
 
