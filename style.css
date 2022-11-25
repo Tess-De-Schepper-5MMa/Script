@@ -7,10 +7,17 @@ body {
 
 }
 
+header, main, footer {
+    padding: 2vh 4vw;
+   }
+
 header {
-    margin: 0 auto;
-    width: 400px;
-    border: 5px solid rgb(187, 16, 167);
+    margin:0  auto;
+    width: 75%;
+    border: 5px solid rgb(141, 86, 4);
+    background-color: rgb(247, 182, 121);
+    color: bisque;
+    margin-top: 20%;
     box-sizing: border-box;
 }
 
@@ -23,15 +30,20 @@ ul li a:hover {
     color: rgb(204, 115, 46);
 }
 
+li {
+    color: bisque;
+}
+
 a {
-    color: rgb(187, 16, 167);
+    color: rgb(187, 16, 87);
 }
 
 #flexbox {
     display: flex;
-    padding: 30px;
+    padding: 50px;
     margin: 10%;
     background-color:rgb(247, 182, 121);
+    margin-top: auto;
 }
 
 h1 {
@@ -46,3 +58,4 @@ p {
 .col{
     width: 50%;
 }
+
