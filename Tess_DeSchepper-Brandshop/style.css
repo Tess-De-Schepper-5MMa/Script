@@ -75,6 +75,16 @@ div i {
     align-items: center;
 }
 
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
+
 
 
 
