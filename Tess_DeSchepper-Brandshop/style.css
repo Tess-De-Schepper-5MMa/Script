@@ -75,10 +75,17 @@ div i {
     align-items: center;
 }
 
+#herobanner{
+    background-color: aliceblue;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
 .videoframe {
     overflow: hidden;
-    margin-bottom: 3rem;
-    max-height: 50vh;
+    margin-bottom: 6rem;
+    max-height: 100vh;
 }
 
 video {
