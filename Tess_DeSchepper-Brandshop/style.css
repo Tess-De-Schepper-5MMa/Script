@@ -101,9 +101,14 @@
 
  .flex-item {
      flex: 1;
+     flex-direction: row;
  }
 
  main img {
      align-items: center;
      width: 50%;
  }
+ #mini_shop .flex-item{
+    flex-direction: row;
+    align-content: end;
+}
