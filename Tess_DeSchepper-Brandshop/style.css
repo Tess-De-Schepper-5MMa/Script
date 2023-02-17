@@ -92,6 +92,15 @@ video {
     width: 100%;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
 
 
 
