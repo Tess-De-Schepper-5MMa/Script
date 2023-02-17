@@ -62,7 +62,6 @@
 
  img {
      width: 5rem;
-     padding: 25%;
  }
 
  li {
@@ -101,14 +100,23 @@
 
  .flex-item {
      flex: 1;
-     flex-direction: row;
  }
 
  main img {
      align-items: center;
-     width: 50%;
+     width: 100%;
  }
- #mini_shop .flex-item{
-    flex-direction: row;
-    align-content: end;
-}
+
+
+ #mini_shop {
+     padding: 0 10%;
+ }
+
+ #mini_shop .flex-container {
+     gap: 5%;
+ }
+
+ #mini_shop .flex-item {
+     flex-direction: row;
+     align-content: end;
+ }
