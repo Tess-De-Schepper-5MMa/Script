@@ -131,6 +131,10 @@
      align-content: end;
  }
 
+ #artists {
+    padding: 0 10%
+ }
+
  #artists .flex-item {
      flex-direction: row;
      align-content: end;
