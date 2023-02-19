@@ -121,16 +121,17 @@
      align-content: end;
  }
 
- 
+
  #categorieën {
-    padding: 0 10%;
-}
+     padding: 0 10%;
+ }
 
+ #categorieën .flex-item {
+     flex-direction: row;
+     align-content: end;
+ }
 
-
-#categorieën .flex-item {
-    flex-direction: row;
-    align-content: end;
-}
-
-
+ #artists .flex-item {
+     flex-direction: row;
+     align-content: end;
+ }
