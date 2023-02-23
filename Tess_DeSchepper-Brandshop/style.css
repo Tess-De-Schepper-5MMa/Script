@@ -139,3 +139,14 @@
      flex-direction: row;
      align-content: end;
  }
+
+ figure {
+    position: relative;
+    margin: 0%;
+ }
+
+ figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
