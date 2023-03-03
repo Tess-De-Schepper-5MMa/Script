@@ -132,7 +132,7 @@
  }
 
  #artists {
-    padding: 0 10%
+     padding: 0 10%
  }
 
  #artists .flex-item {
@@ -141,12 +141,27 @@
  }
 
  figure {
-    position: relative;
-    margin: 0%;
+     position: relative;
+     margin: 0%;
  }
 
  figcaption {
-    position: absolute;
-    bottom: 12%;
-    left: 15%;
+     position: absolute;
+     bottom: 12%;
+     left: 15%;
+ }
+
+ footer {
+     padding: 5vw 20vw;
+ }
+
+ footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
 }
+
+footer ul li:first-child a {
+    font-size: 1rem;
+}
+
