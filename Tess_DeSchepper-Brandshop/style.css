@@ -171,3 +171,16 @@ footer ul li:first-child a {
     font-size: 1rem;
 }
 
+footer i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+.legal a {
+    font-size: 0.8rem;
+    color: rgb(129, 129, 129);
+}
