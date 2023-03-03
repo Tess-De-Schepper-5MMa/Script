@@ -153,6 +153,11 @@
 
  footer {
      padding: 5vw 20vw;
+     background-color: black;
+ }
+
+ footer a{
+    color: rgb(129, 129, 129);
  }
 
  footer ul li {
@@ -162,6 +167,7 @@
 }
 
 footer ul li:first-child a {
+    color: white;
     font-size: 1rem;
 }
 
