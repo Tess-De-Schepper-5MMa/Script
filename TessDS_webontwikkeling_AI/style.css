@@ -8,6 +8,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #eaead9;
   }
   
   .row1 {
@@ -16,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
-    background-color: #ffffff;
+    background-color: #eaead9;
   }
   
   .logo img {
@@ -66,7 +67,6 @@
   .hero {
     width: 50%;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
   }
   
