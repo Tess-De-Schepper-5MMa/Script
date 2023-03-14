@@ -77,5 +77,26 @@
     color: #000000;
     margin-bottom: 1rem;
   }
+
+  .shop-now {
+    background-color: #09877c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now:hover {
+    background-color: #49bda2;
+    transform: scale(1.1)
+  }
+  
   
   
