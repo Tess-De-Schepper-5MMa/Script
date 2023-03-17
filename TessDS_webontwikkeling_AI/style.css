@@ -5,11 +5,15 @@
   font-family: corbel, sans-serif;
 }
 
+
+
 header {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #eaead9;
+  background-image: url(images/template02.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .row1 {
@@ -18,7 +22,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  background-color: #eaead9;
 }
 
 .logo img {
@@ -102,3 +105,5 @@ nav a:hover {
   grid-template-columns: repeat(12, 1fr);
   position: relative;
 }
+
+
