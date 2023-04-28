@@ -1,17 +1,41 @@
-header img{
-    width: 3rem;
+header img {
+    width: 5rem;
 }
 
-body{
+body {
     background-color: var(--bgc-01);
 }
 
-header{
+header {
     background-color: var(--bgc-02);
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    align-items: end;
 }
+
+header nav{
+    justify-self: end;
+}
+
+header nav li{
+    display: inline;
+}
+
 
 :root {
     --bgc-01: #ffffff;
     --bgc-02: #DBB5AF;
     --txt-01: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
