@@ -9,17 +9,21 @@ header img {
 }
 
 body {
-    background-color: var(--bgc-01);
-    font-family: "dongwhacaek", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    background-color: var(--bgc-03);
+    color: var(--txt-01);
+    font-family: "owners-wide", sans-serif;
+    line-height: 1;
 }
 
 header {
     background-color: var(--bgc-02);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: end;
+    align-items: center
+}
+
+.navi {
+    justify-self: end;
 }
 
 .navi :hover {
@@ -28,9 +32,7 @@ header {
 
 header nav li {
     display: inline;
-    justify-self: end;
     padding-right: 1.7rem;
-
 }
 
 header nav a {
@@ -42,7 +44,7 @@ header nav a {
 :root {
     --bgc-01: #ffffff;
     --bgc-02: #DBB5AF;
-    --txt-01: hsl(0, 0%, 90%);
+    --txt-01: #ffffff;
 }
 
 main {
@@ -53,11 +55,14 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    grid-gap: 20px;
+
 
 }
 
 .grid-card {
     position: relative;
+
 }
 
 #lineup img {
@@ -66,9 +71,16 @@ main {
     object-position: top;
 }
 
+.line-up {
+    margin-top: 2rem;
+    font-size: 30px;
+    color: black
+}
+
 img {
     display: block;
     width: 100%;
+
 }
 
 .act {
