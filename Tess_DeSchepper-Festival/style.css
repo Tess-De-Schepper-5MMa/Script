@@ -12,13 +12,14 @@ body {
     background-color: var(--bgc-01);
     color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
+    font-family: "dongwhacaek", sans-serif;
     line-height: 1;
 }
 
 header {
     background-color: var(--bgc-02);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center
 }
 
@@ -45,7 +46,7 @@ header nav a {
     --bgc-01: #ffffff;
     --bgc-02: #DBB5AF;
     --txt-01: #ffffff;
-    --bgc-03: #9F5B5D; 
+    --bgc-03: #9F5B5D;
 }
 
 main {
@@ -107,30 +108,34 @@ img {
     text-decoration: none;
     bottom: 15%;
     position: relative;
+    font-weight: 300;
 }
 
 footer {
-    padding: 5vw 20vw;
+    padding: 4vw 9vw;
     background-color: var(--bgc-03);
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
-footer a{
-   color: rgb(129, 129, 129);
+footer a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 footer ul li {
-   font-size: 0.8rem;
-   line-height: 2;
-   list-style-type: none;
+    line-height: 1;
+    list-style-type: none;
 }
 
-footer ul li:first-child a {
-   color: white;
-   font-size: 1rem;
+footer i:hover {
+    transform: scale(1.1);
 }
 
 footer i {
-   font-size: 1.6rem;
-   color: white;
+    font-size: 2rem;
+    color: #ffffff;
+    
 }
-
