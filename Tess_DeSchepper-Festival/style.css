@@ -111,6 +111,11 @@ img {
     font-weight: 300;
 }
 
+ul{
+    margin-block-start: 1em;
+}
+
+
 footer {
     padding: 4vw 9vw;
     background-color: var(--bgc-03);
@@ -137,5 +142,4 @@ footer i:hover {
 footer i {
     font-size: 2rem;
     color: #ffffff;
-    
 }

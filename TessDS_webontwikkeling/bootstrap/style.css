@@ -1,0 +1,21 @@
+header{
+    margin-bottom: 2rem;
+}
+
+.row {
+    margin-top: 2rem;
+}
+
+header img {
+    width: 50%;
+}
+
+.nav-item :hover{
+    color: rgb(145, 249, 167);
+}
+
+
+
+
+
+
