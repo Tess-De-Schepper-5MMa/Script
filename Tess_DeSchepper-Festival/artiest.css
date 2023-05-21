@@ -48,3 +48,35 @@ body {
     --txt-01: #ffffff;
     --bgc-03: #9F5B5D;
 }
+
+ul{
+    margin-block-start: 1em;
+}
+
+footer {
+    padding: 4vw 9vw;
+    background-color: var(--bgc-03);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+footer a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer ul li {
+    line-height: 1;
+    list-style-type: none;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+footer i {
+    font-size: 2rem;
+    color: #ffffff;
+}
