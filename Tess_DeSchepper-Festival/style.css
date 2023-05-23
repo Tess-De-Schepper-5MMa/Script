@@ -65,7 +65,7 @@ main {
     position: relative;
 }
 
-.grid-card a{
+.grid-card a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -145,4 +145,21 @@ footer i:hover {
 footer i {
     font-size: 2rem;
     color: #ffffff;
+}
+
+.titel {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tekst{
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+#melaniemartinez .grid-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
 }
