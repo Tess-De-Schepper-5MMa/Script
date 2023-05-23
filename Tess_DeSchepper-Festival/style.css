@@ -64,7 +64,11 @@ main {
 
 .grid-card {
     position: relative;
+}
 
+.grid-card a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #lineup img {
@@ -111,7 +115,7 @@ img {
     font-weight: 300;
 }
 
-ul{
+ul {
     margin-block-start: 1em;
 }
 
