@@ -10,7 +10,6 @@ header img {
 
 body {
     background-color: var(--bgc-01);
-    color: var(--txt-01);
     font-family: "owners-wide", sans-serif;
     font-family: "dongwhacaek", sans-serif;
     line-height: 1;
@@ -45,7 +44,7 @@ header nav a {
 :root {
     --bgc-01: #ffffff;
     --bgc-02: #DBB5AF;
-    --txt-01: #ffffff;
+    --txt-01: #000000;
     --bgc-03: #9F5B5D;
 }
 
