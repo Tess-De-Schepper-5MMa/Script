@@ -35,6 +35,15 @@ header nav li {
     padding-right: 1.7rem;
 }
 
+header input#Burger {
+    display: none;
+}
+
+header label[for="Burger"] {
+    display: none;
+}
+
+
 header nav a {
     color: black;
     text-decoration: none;
@@ -152,14 +161,28 @@ footer i {
     margin-bottom: 1rem;
 }
 
-.tekst{
+.tekst {
     margin-bottom: 1rem;
     font-family: sans-serif;
 }
 
-#melaniemartinez .grid-container{
+#melaniemartinez .grid-container {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 3rem;
     margin-top: 3rem;
 
+}
+
+#melaniemartinez .grid-card a {
+    font-size: 3rem;
+    color: #4B8BA7;
+
+}
+
+
+
+@media (width <=750px) {
+    header label[for="Burger"]{
+        display: block;
+    }
 }
