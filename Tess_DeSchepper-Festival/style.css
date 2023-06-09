@@ -22,11 +22,7 @@ header {
     align-items: center
 }
 
-.navi {
-    justify-self: end;
-}
-
-.navi :hover {
+header a:hover {
     color: #ffffff;
 }
 
@@ -58,7 +54,7 @@ header nav a {
 }
 
 main {
-    padding: 0 7rem;
+    padding: 0 14%;
 }
 
 .grid-container {
@@ -166,14 +162,19 @@ footer i {
     font-family: sans-serif;
 }
 
-#melaniemartinez .grid-container {
+#artiest iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+#artiest .grid-container {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 3rem;
     margin-top: 3rem;
 
 }
 
-#melaniemartinez .grid-card a {
+#artiest .grid-card a {
     font-size: 3rem;
     color: #4B8BA7;
 
@@ -196,7 +197,7 @@ footer i {
         grid-template-columns: 1fr;
     }
 
-    header a{
+    header a {
         display: none;
     }
 }
