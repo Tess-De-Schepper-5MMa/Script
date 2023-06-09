@@ -182,7 +182,21 @@ footer i {
 
 
 @media (width <=750px) {
-    header label[for="Burger"]{
+    header label[for="Burger"] {
         display: block;
+        text-align: right;
+        padding: 1rem 1ch;
+    }
+
+    #artiest .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    header a{
+        display: none;
     }
 }
