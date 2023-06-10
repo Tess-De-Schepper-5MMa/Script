@@ -175,6 +175,18 @@ footer i {
 
 }
 
+#artiest .socials {
+    padding: 1rem;
+}
+
+#artiest .socials  a{
+    margin-left: 10%;
+}
+
+#artiest .socials i:hover {
+    transform: scale(1.1);
+}
+
 header input#Burger {
     display: none;
 }
