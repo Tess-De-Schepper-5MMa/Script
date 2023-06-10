@@ -29,16 +29,8 @@ header a:hover {
 header nav li {
     display: inline;
     padding-right: 1.7rem;
-}
 
-header input#Burger {
-    display: none;
 }
-
-header label[for="Burger"] {
-    display: none;
-}
-
 
 header nav a {
     color: black;
@@ -180,7 +172,13 @@ footer i {
 
 }
 
+header input#Burger {
+    display: none;
+}
 
+header label[for="Burger"] {
+    display: none;
+}
 
 @media (width <=750px) {
     header label[for="Burger"] {
