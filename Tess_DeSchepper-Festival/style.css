@@ -179,7 +179,7 @@ footer i {
     padding: 1rem;
 }
 
-#artiest .socials  a{
+#artiest .socials a {
     margin-left: 10%;
 }
 
@@ -204,6 +204,10 @@ header label[for="Burger"] {
 
     #artiest .grid-container {
         grid-template-columns: 1fr;
+    }
+
+    #artiest .socials a {
+        margin-left: 3%;
     }
 
     .grid-container {
