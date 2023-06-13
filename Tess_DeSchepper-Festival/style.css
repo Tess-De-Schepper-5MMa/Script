@@ -214,8 +214,23 @@ header label[for="Burger"] {
         grid-template-columns: 1fr;
     }
 
-    header a {
+    header input#Burger:checked+label[for="Burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 3rem;
+        right: 0;
         display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
     }
 
 }
