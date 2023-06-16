@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header img {
     width: 5rem;
 }
@@ -233,4 +234,17 @@ header label[for="Burger"] {
         user-select: none;
     }
 
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(2.0);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.logo {
+    animation: scale 1s linear;
 }
